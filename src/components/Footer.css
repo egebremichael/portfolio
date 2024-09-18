@@ -1,0 +1,37 @@
+/* components/Footer.css */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: transparent; /* Fully transparent background */
+    position: relative; /* Adjust positioning if needed */
+  }
+  
+  .footer-icons {
+    display: flex;
+    gap: 1rem; /* Space between icons */
+  }
+  
+  .icon {
+    color: rgb(71, 71, 71); /* Color for the icons */
+    font-size: 2rem; /* Size of the icons */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+    padding-bottom: 5px;
+  }
+  
+  .icon:hover {
+    color: rgb(152, 152, 152); /* Change color on hover */
+  }
+  
+  .footer-email {
+    margin-top: 0.5rem;
+  }
+  
+  .footer-email a {
+    color: black; /* Color for email link */
+    text-decoration: none; /* Remove underline */
+  }
+  
