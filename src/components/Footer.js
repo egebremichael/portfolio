@@ -1,17 +1,17 @@
 // components/Footer.js
 
 import React from 'react';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'; // Import the envelope icon
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'; 
 import './Footer.css';
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-icons">
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/egebremichael" target="_blank" rel="noopener noreferrer">
           <FaGithub className="icon" />
         </a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+        <a href="https://linkedin.com/in/efratagebremichael" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="icon" />
         </a>
         <a href="mailto:ephrathafisseha@gmail.com">

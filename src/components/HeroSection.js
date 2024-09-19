@@ -9,11 +9,8 @@ const HeroSection = () => {
 
   useEffect(() => {
     const sequence = async () => {
-      // Animate "Welcome" entering from the left
-      await new Promise(resolve => setTimeout(resolve, 1000)); // Initial entry time
-      // Wait for 2 seconds
-      await new Promise(resolve => setTimeout(resolve, 700)); // Display time
-      // Trigger the exit animation for "Welcome"
+      await new Promise(resolve => setTimeout(resolve, 1000)); 
+      await new Promise(resolve => setTimeout(resolve, 700)); 
       setShowName(true);
     };
 
@@ -37,10 +34,10 @@ const HeroSection = () => {
       >
         <motion.div
           className="hero-title"
-          initial={{ x: -100, opacity: 0 }} // Start off-screen to the left
+          initial={{ x: -100, opacity: 0 }} 
           animate={{
-            x: showName ? 100 : 0, // Move to the right if showName is true
-            opacity: showName ? 0 : 1, // Fade out if showName is true
+            x: showName ? 100 : 0, 
+            opacity: showName ? 0 : 1,
             transition: { duration: 1, ease: "easeOut" }
           }}
         >
@@ -48,10 +45,10 @@ const HeroSection = () => {
         </motion.div>
         <motion.div
           className="hero-name"
-          initial={{ x: 100, opacity: 0 }} // Start off-screen to the right
+          initial={{ x: 100, opacity: 0 }}
           animate={{
-            x: showName ? 0 : 100, // Move into view if showName is true
-            opacity: showName ? 1 : 0, // Fade in if showName is true
+            x: showName ? 0 : 100, 
+            opacity: showName ? 1 : 0, 
             transition: { duration: 1, ease: "easeOut" }
           }}
         >

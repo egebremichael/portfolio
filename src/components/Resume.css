@@ -1,35 +1,35 @@
 html, body {
-  margin: 0; /* Remove default margin */
-  height: 100%; /* Ensure the body takes full height */
-  overflow: hidden; /* Prevent body scrolling; manage scrolling within the container */
+  margin: 0;
+  height: 100%; 
+  overflow: hidden; 
 }
 
 .resume-section {
-  padding-top: 120px; /* Adjust based on navbar height */
-  width: 100%; /* Full width of the section */
-  height: 100vh; /* Full height of the viewport */
+  padding-top: 120px;
+  width: 100%; 
+  height: 100vh; 
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: flex-start; /* Align items at the top */
-  position: relative; /* Position relative for absolute children */
-  overflow: hidden; /* Prevent overflow */
+  justify-content: center; 
+  align-items: flex-start; 
+  position: relative;
+  overflow: hidden; 
   background-color: transparent;
 }
 
 .pdf-container {
-  width: 70%; /* Set width of the container */
-  height: 100%; /* Set height to allow for scrolling */
-  overflow: auto; /* Allow scrolling if needed */
-  display: flex; /* Use flexbox for centering */
-  justify-content: center; /* Center the image horizontally */
-  align-items: flex-start; /* Align items at the top */
+  width: 70%; 
+  height: 100%; 
+  overflow: auto; 
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start; 
   background-color: transparent;
 }
 
 .resume-image {
-  width: 100%; /* Set width to fill the container */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Ensure it behaves as a block element */
+  width: 100%; 
+  height: auto; 
+  display: block; 
   background-color: transparent;
 }
 
@@ -37,9 +37,9 @@ html, body {
   position: absolute;
   width: 120%;
   height: 120%;
-  top: -10%;
-  left: -20%;
-  background: url('images/2.png') no-repeat center center/cover;
+  top: -3%;
+  left: -10%;
+  background: url('images/5.png') no-repeat center center/cover;
   z-index: -1;
 }
 

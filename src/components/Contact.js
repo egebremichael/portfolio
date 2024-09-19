@@ -13,20 +13,21 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
-
+  
     try {
-      const response = await fetch('/api/send-email', {
+      const response = await fetch('http://localhost:5001/api/send-email', {  
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ name, email, message }),
       });
-
+  
       if (!response.ok) {
-        throw new Error('Something went wrong. Please try again later.');
+        const errorData = await response.json();
+        throw new Error(errorData.message || 'Something went wrong. Please try again later.');
       }
-
+  
       setIsSubmitted(true);
       setName('');
       setEmail('');
@@ -35,6 +36,8 @@ const Contact = () => {
       setError(err.message);
     }
   };
+  
+  
 
   return (
     <section id="contact" className="contact-section">

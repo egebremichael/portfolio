@@ -20,12 +20,12 @@
 }
 
 .hero-content {
-  position: relative; /* Ensure that the content is positioned correctly */
-  z-index: 1; /* Ensure content appears above the background */
-  max-width: 800px; /* Adjust as needed */
-  margin: 0 auto; /* Center the content horizontally */
-  padding: 0 20px; /* Add horizontal padding */
-  text-align: left; /* Align text to the left */
+  position: relative; 
+  z-index: 1;
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 0 20px; 
+  text-align: left;
 }
 
 .hero-content h1 {
@@ -35,13 +35,13 @@
 }
 
 .hero-content p {
-  font-size: 1rem; /* Adjusted font size */
+  font-size: 1rem; 
   margin: 1.5rem 0;
-  line-height: 1.6; /* Adjust line height for readability */
+  line-height: 1.6; 
   color: #5a5a5a;
 }
 
-/* Add styles for the icons and links */
+
 .hero-icons {
   margin: 1rem 0;
 }
@@ -56,7 +56,7 @@
 }
 
 .hero-icons a:hover {
-  color: #847b79; /* Adjust color on hover */
+  color: #847b79; 
 }
 
 .hero-content h1:hover,
@@ -65,10 +65,10 @@
   transition: transform 0.3s ease;
 }
 
-/* Styling for the "View Projects" button */
+
 .view-projects {
   display: inline-block;
-  margin-bottom: 2rem; /* Space between button and icons */
+  margin-bottom: 2rem;
   font-size: 1.25rem;
   padding: 0.5rem 1rem;
   border: 2px solid #ffffff00;
@@ -76,7 +76,7 @@
   text-decoration: none;
   color: #000000;
   transition: background-color 0.3s ease, color 0.3s ease;
-  animation: bounce 2s infinite; /* Apply bouncing animation */
+  animation: bounce 2s infinite; 
 }
 
 .view-projects:hover {
@@ -84,7 +84,7 @@
   color: #333;
 }
 
-/* Bouncing animation */
+
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateX(0);

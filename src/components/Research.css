@@ -8,7 +8,7 @@ body {
   min-height: 100vh; /* Minimum height to fill the viewport */
 }
 
-.background-image {
+.research-background {
   position: fixed;
   top: 0;
   left: 0;
@@ -71,13 +71,13 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden; /* Ensures no overflow of image */
+  overflow: hidden; 
 }
 
 .research-image {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensure image covers container while maintaining aspect ratio */
+  object-fit: cover; 
 }
 
 .research-overlay {
@@ -95,7 +95,7 @@ body {
   opacity: 0;
   transition: opacity 0.3s ease;
   padding: 1rem;
-  z-index: 1; /* Ensure overlay is above the image */
+  z-index: 1; 
 }
 
 .research-card:hover .research-overlay {
@@ -107,19 +107,19 @@ body {
 }
 
 .research-content h2 {
-  font-family: "Red Hat Display", sans-serif; /* Ensure consistent font-family */
-  font-size: 1.5rem; /* Adjust as needed */
-  font-weight: 700; /* Adjust to match rest of page */
+  font-family: "Red Hat Display", sans-serif; 
+  font-size: 1.5rem; 
+  font-weight: 700; 
   margin-bottom: 0.5rem;
-  color: #fff; /* Ensure text color is readable */
+  color: #fff; 
 }
 
 .research-content p {
-  font-family: "Red Hat Display", sans-serif; /* Ensure consistent font-family */
-  font-size: 1rem; /* Adjust as needed */
-  font-weight: 400; /* Adjust to match rest of page */
+  font-family: "Red Hat Display", sans-serif; 
+  font-size: 1rem; 
+  font-weight: 400; 
   margin-bottom: 5rem;
-  color: #fff; /* Ensure text color is readable */
+  color: #fff; 
 }
 
 .research-link {

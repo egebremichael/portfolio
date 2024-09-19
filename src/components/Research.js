@@ -26,7 +26,7 @@ const Research = () => {
       transition={{ duration: 1, ease: "easeOut" }}
     >
       <motion.div
-        className="background-image"
+        className="research-background"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.5 }}
