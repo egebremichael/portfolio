@@ -4,7 +4,7 @@ import './Projects.css';
 import { FaGithub, FaGlobe } from 'react-icons/fa';
 import JIS from './images/JIS-demo.mp4';
 import library from './images/library-screen.png';
-import curlyvid from './images/curly-hair-demo.mp4';
+import curlyvid from './images/curly-demo_resized.mp4';
 import appyo from './images/appyo-demo.mov';
 import heber from './images/heber.png';
 import asos from './images/asos.png';
